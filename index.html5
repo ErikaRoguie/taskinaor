@@ -14,6 +14,17 @@
       <p>Click the button below to add a new task!</p>
       <button class="btn">Add Task</button>
     </header>
+    <main class="page-content">
+    <section class="task-list-wrapper">
+    <ul class="task-list">
+    <li class="task-list-item">A task is going to be added soon!</li>
+    </ul>
+    </section>
+    </main>
+
     <script src="./assets/js/script.js"></script>
   </body>
+  <footer>
+  &copy; 2020 by Taskinator
+  </footer>
 </html>
