@@ -34,11 +34,6 @@ var taskFormHandler = function (event) {
 };
 
 var createTaskE1 = function(taskDataObj){
-    //taskDataObj
-    {
-        name: "Task's name",
-        type: "Task's type"
-    }
     // create list item
 var listItemEl = document.createElement("li");
 listItemEl.className = "task-item";
