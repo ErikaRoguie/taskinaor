@@ -26,10 +26,12 @@
       </div>
       <div class="form-group">
       <button class="btn" id= "save-task" type="submit">Add Task</button>
+      <button class="btn edit-btn" data-task-id="0">Edit</button>
+      <button class="btn delete-btn" data-task-id="0">Delete</button>
       </div>
       </form>
     </header>
-    <main class="page-content">
+    <main class="page-content" id= "page-content">
     <section class="task-list-wrapper">
     <ul class="task-list" id = "tasks-to-do"></ul>
     </section>
